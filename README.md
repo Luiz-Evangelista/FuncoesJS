@@ -9,7 +9,8 @@ Em JavaScript, podemos destacar três tipos de funçôes:Declaration Funcion, Ex
  '''js 
   funcion Somar (A,B){
     return A + B;
-  } '''                                                          
+  } 
+  '''                                                          
 "Somar" é o identificador 
 "A,B" são os parâmetros
 "Return" é o retorno da função
