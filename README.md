@@ -25,6 +25,11 @@ function mensagem(nome) {
 mensagem ("Luiz");
 ```
 
+Aqui estamos criando uma função chamada mensagem,ela recebe um parâmetro, chamado nome e esse parâmetro nome funciona como uma caixinha que vai guardar qualquer valor que você passar para a função.
+Olá, " + nome + "!" é uma mensagem que junta texto com o valor do parâmetro.
+Por exemplo, eu digitei meu nome "Luiz", o resultado é "Olá, Luiz!".
+
+obs:Console.log é pra deixar o que acontece na função ou código visível, ele é o print do python no Javascript.
 
 ----------------------------------------------
 (2).Expression Function:Diferente da Declaration ela precisa ser declarada antes de ser usada.
@@ -60,6 +65,4 @@ let Somar =  (A,B) =>{
 }
 ```
 Essa forma é um puco mais longa e permite que coloque mais comandos ou dados.
-
-
 
