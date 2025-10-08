@@ -6,11 +6,11 @@ Em JavaScript, podemos destacar três tipos de funçôes:Declaration Funcion, Ex
 
 
   ex: 
- '''js 
+
   funcion Somar (A,B){
     return A + B;
   } 
-  '''                                                          
+
 "Somar" é o identificador 
 "A,B" são os parâmetros
 "Return" é o retorno da função
@@ -20,10 +20,9 @@ Em JavaScript, podemos destacar três tipos de funçôes:Declaration Funcion, Ex
 
   ex: 
 
-'''js
 let Somar = funcion (A,B){
     return A + B;
-  } '''                                                           
+  }                                                         
 Nela o indentificador vem antes do nome função.
 "Somar = funcion"
 
@@ -34,20 +33,18 @@ Nela o indentificador vem antes do nome função.
 
 Ela pode ser utilizada de duas maneiras:
 
-'''js
+
 let Somar =  (A,B) => A + B;
-'''
 
 Forma mais simples, quando o codigo é simples e couber em uma linha assim ja retorna direto,sem precisar usar "{}" e "return".
 
-'''js
 let Somar =  (A,B) =>{
     let Somar = A + B;
     return result;
     
-} 
-'''
+}
+
 Essa forma é um puco mais longa e permite que coloque mais comandos ou dados.
-----------------------------------------------
+--------------------------------------------
 
 
