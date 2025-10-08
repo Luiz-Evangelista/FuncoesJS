@@ -48,6 +48,7 @@ Nela o indentificador vem antes do nome função.
 
 Pois a função está dentro de uma variável.
 Diferença principal em relação à Declaration Function:Uma Declaration Function pode ser chamada antes de ser definida no código ja uma Expression Function não pode ser usada antes da linha em que é definida.
+
 ----------------------------------------------
 (3).Arrow Funcion: É uma forma mais simples e curta de escrever uma função, por isso é a mais comumente utilizada hoje em dia.
 
