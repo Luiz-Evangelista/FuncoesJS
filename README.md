@@ -1,31 +1,45 @@
 # FuncoesJS
-Em JavaScript, podemos destacar três tipos de funçôes:Declaration Funcion, Expression Funcion,Arrow Funcion.
+Em JavaScript, podemos destacar três tipos de funçôes:Declaration Function, Expression Function,Arrow Function.
 
 ----------------------------------------------
-(1).Declaration Funcion: Ela permite definir uma função e que pode ser chamada antes ou depois da sua definição.
+(1).Declaration function: Ela permite definir uma função e que pode ser chamada antes ou depois da sua definição.
 
 
   ex: 
 ```js
-  funcion Somar (A,B){
+  function Somar (A,B){
     return A + B;
-  } 
+  }
+
 ```
 "Somar" é o identificador 
 "A,B" são os parâmetros
 "Return" é o retorno da função
 
+Outro exemplo desse tipo de função:
+```js
+function mensagem(nome) {
+  console.log("Olá, " + nome + "!");
+}
+
+mensagem ("Luiz");
+```
+
+
 ----------------------------------------------
-(2).Expression Funcion:Diferente da Declaration ela precisa ser declarada antes de ser usada.
+(2).Expression Function:Diferente da Declaration ela precisa ser declarada antes de ser usada.
 
   ex: 
 ```js
-let Somar = funcion (A,B){
-    return A + B;
-  }
+let Somar = function(A, B) {
+  return A + B;
+}
 ```                  
 Nela o indentificador vem antes do nome função.
-"Somar = funcion"
+
+"Somar =function"
+
+Pois a função está dentro de uma variável.
 
 ----------------------------------------------
 (3).Arrow Funcion: É uma forma mais simples e curta de escrever uma função, por isso é a mais comumente utilizada hoje em dia.
