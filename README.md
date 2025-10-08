@@ -34,7 +34,7 @@ Nela o indentificador vem antes do nome função.
 Ela pode ser utilizada de duas maneiras:
 
 let Somar =  (A,B) => A + B;
-Forma mais simples, quando o codigo é simples e couber em uma linha assim ja retorna direto.
+Forma mais simples, quando o codigo é simples e couber em uma linha assim ja retorna direto,sem precisar usar "{}" e "return".
 
 
 let Somar =  (A,B) =>{
