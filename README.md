@@ -7,9 +7,11 @@ Em JavaScript, podemos destacar três tipos de funçôes:Declaration Function, E
 
   ex: 
 ```js
-  function Somar (A,B){
+function Somar(A, B) {
     return A + B;
-  }
+}
+
+console.log(Somar(3, 4)); // Saída: 7
 
 ```
 "Somar" é o identificador 
@@ -29,7 +31,7 @@ Aqui estamos criando uma função chamada mensagem,ela recebe um parâmetro, cha
 Olá, " + nome + "!" é uma mensagem que junta texto com o valor do parâmetro.
 Por exemplo, eu digitei meu nome "Luiz", o resultado é "Olá, Luiz!".
 
-obs:Console.log é pra deixar o que acontece na função ou código visível, ele é o print do python no Javascript.
+obs:Console.log é pra deixar/mostrar para o usuário o que acontece na função ou código visível, ele é o print do python no Javascript.
 
 ----------------------------------------------
 (2).Expression Function:Diferente da Declaration ela precisa ser declarada antes de ser usada.
@@ -45,7 +47,7 @@ Nela o indentificador vem antes do nome função.
 "Somar =function"
 
 Pois a função está dentro de uma variável.
-
+Diferença principal em relação à Declaration Function:Uma Declaration Function pode ser chamada antes de ser definida no código ja uma Expression Function não pode ser usada antes da linha em que é definida.
 ----------------------------------------------
 (3).Arrow Funcion: É uma forma mais simples e curta de escrever uma função, por isso é a mais comumente utilizada hoje em dia.
 
@@ -65,4 +67,5 @@ let Somar =  (A,B) =>{
 }
 ```
 Essa forma é um puco mais longa e permite que coloque mais comandos ou dados.
+Aqui sim usamos {} para permitir mais linhas de código dentro da função e também nesse caso, é necessário usar return explicitamente.
 
