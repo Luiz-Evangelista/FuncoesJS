@@ -2,7 +2,7 @@
 Em JavaScript, podemos destacar três tipos de funçôes:Declaration Funcion, Expression Funcion,Arrow Funcion.
 
 ----------------------------------------------
-(1).Declaration Funcion: Ela permite deefinir uma função e que pode ser chamada antes ou depois da sua definição.
+(1).Declaration Funcion: Ela permite definir uma função e que pode ser chamada antes ou depois da sua definição.
 
 
   ex: 
